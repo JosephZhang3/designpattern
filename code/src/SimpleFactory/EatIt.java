@@ -1,6 +1,6 @@
 package SimpleFactory;
 
-public class EatMachine {
+public class EatIt {
     public static void main(String[] args) {
         FruitFactory factory = new FruitFactory();
 
