@@ -3,10 +3,8 @@ package singleton;
 public class UseSingleton {
     public static void main(String[] args) {
         EnumSingleton s = EnumSingleton.INSTANCE;
-        System.out.println(System.identityHashCode(s));
-
         EnumSingleton s2 = EnumSingleton.INSTANCE;
-        System.out.println(System.identityHashCode(s2));
+        System.out.println(s == s2);
         /**
          * s 和 s2 的内存地址一样，说明用枚举实现单例模式生效
          */
