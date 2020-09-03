@@ -1,4 +1,4 @@
-package SimpleFactory;
+package simplefactory;
 
 public interface Fruit {
     void eat();

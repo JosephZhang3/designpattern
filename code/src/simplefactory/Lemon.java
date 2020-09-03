@@ -1,4 +1,4 @@
-package SimpleFactory;
+package simplefactory;
 
 public class Lemon implements Fruit {
     @Override
